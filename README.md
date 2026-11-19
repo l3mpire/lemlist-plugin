@@ -21,6 +21,7 @@ The server uses OAuth 2.1 (dynamic client registration and PKCE). On first use y
 | Claude Code | `/plugin marketplace add l3mpire/lemlist-plugin` then `/plugin install lemlist@lemlist` |
 | Gemini CLI | `gemini extensions install https://github.com/l3mpire/lemlist-plugin` |
 | Grok Build | `grok plugin install l3mpire/lemlist-plugin` |
+| Kiro | [![Add to Kiro](https://kiro.dev/images/add-to-kiro.svg)](https://kiro.dev/launch/mcp/add?name=lemlist&config=%7B%22url%22%3A%22https%3A%2F%2Fapp.lemlist.com%2Fmcp%22%2C%22disabled%22%3Afalse%2C%22autoApprove%22%3A%5B%5D%7D) |
 | Cursor | `.cursor-plugin/plugin.json` |
 | Any MCP client | add a remote (Streamable HTTP) server with the URL `https://app.lemlist.com/mcp` |
 

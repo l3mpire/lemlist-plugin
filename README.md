@@ -8,7 +8,18 @@ https://app.lemlist.com/mcp
 
 With it, your assistant can list your campaigns and their stats, create campaigns with email and LinkedIn sequences, add and search leads, search the lemlist B2B people database, and check the deliverability of your sending domains.
 
-This repository only holds the plugin manifests. The MCP server is run by lemlist; there is nothing to build or host.
+This repository holds the plugin manifests and the skills. The MCP server is run by lemlist; there is nothing to build or host.
+
+## Skills
+
+Four workflow skills ship with the plugin. Each one runs on the tools of the lemlist MCP server and stops with setup steps when the server is not connected.
+
+| Skill | What it does |
+|---|---|
+| `lemlist-find-leads` | Turns an ideal customer profile into a checked list of people from the lemlist people database (companies first, then people), then saves them to the CRM or a campaign. Asks before spending enrichment credits. |
+| `lemlist-launch-campaign` | Agrees on the brief, writes a short email and LinkedIn sequence, creates the campaign, adds the leads, runs the readiness check, and launches only after an explicit yes. |
+| `lemlist-campaign-report` | Pulls campaign stats per campaign, channel and step over any period, and turns them into a short diagnosis with next actions. |
+| `lemlist-deliverability-check` | Runs lemlist's deliverability audit (DNS, warm-up, volume, bounces, content) read-only and explains the verdict and the fixes in order. |
 
 ## Sign-in
 
@@ -32,6 +43,7 @@ The server uses OAuth 2.1 (dynamic client registration and PKCE). On first use y
 - `.cursor-plugin/plugin.json`: Cursor
 - `.grok-plugin/`: Grok
 - `gemini-extension.json`: Gemini CLI
+- `skills/`: workflow skills (`SKILL.md` per skill)
 
 ## Links
 

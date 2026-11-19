@@ -1,6 +1,6 @@
 {
   "name": "lemlist",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Run multichannel outreach in lemlist from your AI assistant: list campaigns and their stats, create campaigns with email and LinkedIn sequences, add and search leads, search the lemlist B2B people database, and check the deliverability of sending domains. Connects to the official lemlist MCP server (OAuth 2.1).",
   "mcpServers": {
     "lemlist": {

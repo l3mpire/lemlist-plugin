@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.l3mpire/lemlist",
+  "description": "Run multichannel outreach in lemlist: campaigns, sequences, leads, stats and deliverability.",
+  "title": "lemlist",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.lemlist.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.lemlist.com/mcp"
+    }
+  ]
+}

@@ -3,7 +3,11 @@
   "name": "io.github.l3mpire/lemlist",
   "description": "Run multichannel outreach in lemlist: campaigns, sequences, leads, stats and deliverability.",
   "title": "lemlist",
-  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/l3mpire/lemlist-plugin",
+    "source": "github"
+  },
+  "version": "1.0.1",
   "websiteUrl": "https://www.lemlist.com",
   "remotes": [
     {
